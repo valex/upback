@@ -1,0 +1,37 @@
+.upback_wrapper{
+
+    display: none;
+    position: fixed;
+    left: 0;
+    /*right: 0;*/
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    opacity: 0.3;
+
+    z-index:1040;
+}
+
+.upback_wrapper:hover {
+    opacity: 0.9;
+}
+
+.upback_panel{
+    color: #4D7285;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.upback_wrapper:hover .upback_panel {
+    background: none repeat scroll 0 0 #F0F0F0;
+    cursor: pointer;
+}
+
+
+.upback_arrow{
+    font-family: tahoma,arial,verdana,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
